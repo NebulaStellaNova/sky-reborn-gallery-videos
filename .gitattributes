@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+bg[[:space:]]1.mp4 filter=lfs diff=lfs merge=lfs -text
+bg[[:space:]]2.mp4 filter=lfs diff=lfs merge=lfs -text
+bg[[:space:]]3.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
